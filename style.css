@@ -1,0 +1,27 @@
+body{
+    background-image: url('images/background.jpg');
+    margin: 0;
+    padding: 0;
+    background-attachment: fixed;
+    background-size: cover;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+}
+.header img{
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    object-position: 0 -8px;
+    border-radius: 50%;
+
+}
+.main{
+    color: white;
+    text-align: center;
+    width: 30%;
+    height: 60vh;
+    background-color:rgba(0,0,0,0.7);
+    border-radius: 20px;
+}
